@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of AppRouter 1`] = `
+<div>
+  <nav
+    className="navbar navbar-default"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="navbar-header"
+      >
+        <div
+          className="navbar-brand"
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "row-reverse",
+              "marginBottom": 10,
+              "marginLeft": -300,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontFamily": "Helvetica, sans-serif",
+                "fontSize": 40,
+              }
+            }
+          >
+            emis health
+            <small
+              style={
+                Object {
+                  "margin": 30,
+                }
+              }
+            >
+              Terminal
+            </small>
+          </h1>
+          <img
+            alt=""
+            src="EMISGroupLogo_icon.png"
+            style={
+              Object {
+                "width": 70,
+              }
+            }
+          />
+        </div>
+      </div>
+      <ul
+        className="nav navbar-nav"
+        role={null}
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <li
+          className=""
+          role="presentation"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontSize": 20,
+                }
+              }
+            >
+              Home
+            </a>
+          </a>
+        </li>
+        <li
+          className=""
+          role="presentation"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+          >
+            <a
+              href="/login"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontSize": 20,
+                }
+              }
+            >
+              Login
+            </a>
+          </a>
+        </li>
+        <li
+          className=""
+          role="presentation"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+          >
+            <a
+              href="/patientrecview"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontSize": 20,
+                }
+              }
+            >
+              Patient Record Viewer
+            </a>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <div>
+      <h2>
+        Welcome to Emis
+      </h2>
+      <hr />
+      <h4>
+        oh, hi there....
+      </h4>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot of LoginPage 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Login
+  </h2>
+  <form
+    name="form"
+    onSubmit={[Function]}
+  >
+    <hr />
+    <input
+      onChange={[Function]}
+      placeholder="username"
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+      type="text"
+      value=""
+    />
+    <input
+      onChange={[Function]}
+      placeholder="password"
+      style={
+        Object {
+          "margin": 10,
+        }
+      }
+      type="password"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
